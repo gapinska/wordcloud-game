@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import './App.scss'
 import Game from './components/Game'
 import { connect } from 'react-redux'
-import { getDataRequest } from './actions/data'
+import { getDataRequest, dataError } from './actions/data'
+import Alert from '@material-ui/lab/Alert'
 
 class App extends Component {
 	constructor(props) {
@@ -12,10 +13,16 @@ class App extends Component {
 
 	render() {
 		const categories = this.props.data.data
-		return <div className="App">{!!categories && !!categories.length && <Game categories={categories} />}</div>
+		return (
+			<div className="App">
+				{!!this.props.data.error && <Alert severity="error">{this.props.data.error} </Alert>}
+				{!!categories && !!categories.length && <Game categories={categories} />}
+			</div>
+		)
 	}
 }
 
 export default connect(({ data }) => ({ data }), {
-	getDataRequest
+	getDataRequest,
+	dataError
 })(App)

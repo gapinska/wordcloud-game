@@ -10,7 +10,13 @@ function* getData() {
 				data: result.data
 			})
 		)
-	} catch (e) {}
+	} catch (e) {
+		yield put(
+			actions.dataError({
+				error: 'An error occured when trying to get data from api'
+			})
+		)
+	}
 }
 
 function* watchGetDataRequest() {
