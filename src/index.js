@@ -10,7 +10,6 @@ import createSagaMiddleware from 'redux-saga'
 import rootSaga from './sagas'
 import { composeWithDevTools } from 'redux-devtools-extension'
 
-// axios.defaults.withCredentials = true
 axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
 axios.defaults.baseURL = 'https://a31c60d7-85eb-43d0-99d8-c5f192a7edfa.mock.pstmn.io/'
 
