@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/wordcloud-game/static/css/main.d33e0b91.chunk.css",
-    "main.js": "/wordcloud-game/static/js/main.574e5827.chunk.js",
-    "main.js.map": "/wordcloud-game/static/js/main.574e5827.chunk.js.map",
+    "main.css": "/wordcloud-game/static/css/main.b5b7f079.chunk.css",
+    "main.js": "/wordcloud-game/static/js/main.bf60b13b.chunk.js",
+    "main.js.map": "/wordcloud-game/static/js/main.bf60b13b.chunk.js.map",
     "runtime-main.js": "/wordcloud-game/static/js/runtime-main.0943172e.js",
     "runtime-main.js.map": "/wordcloud-game/static/js/runtime-main.0943172e.js.map",
-    "static/js/2.35235ddb.chunk.js": "/wordcloud-game/static/js/2.35235ddb.chunk.js",
-    "static/js/2.35235ddb.chunk.js.map": "/wordcloud-game/static/js/2.35235ddb.chunk.js.map",
+    "static/js/2.e03b05b2.chunk.js": "/wordcloud-game/static/js/2.e03b05b2.chunk.js",
+    "static/js/2.e03b05b2.chunk.js.map": "/wordcloud-game/static/js/2.e03b05b2.chunk.js.map",
     "index.html": "/wordcloud-game/index.html",
-    "static/css/main.d33e0b91.chunk.css.map": "/wordcloud-game/static/css/main.d33e0b91.chunk.css.map",
-    "static/js/2.35235ddb.chunk.js.LICENSE.txt": "/wordcloud-game/static/js/2.35235ddb.chunk.js.LICENSE.txt"
+    "static/css/main.b5b7f079.chunk.css.map": "/wordcloud-game/static/css/main.b5b7f079.chunk.css.map",
+    "static/js/2.e03b05b2.chunk.js.LICENSE.txt": "/wordcloud-game/static/js/2.e03b05b2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0943172e.js",
-    "static/js/2.35235ddb.chunk.js",
-    "static/css/main.d33e0b91.chunk.css",
-    "static/js/main.574e5827.chunk.js"
+    "static/js/2.e03b05b2.chunk.js",
+    "static/css/main.b5b7f079.chunk.css",
+    "static/js/main.bf60b13b.chunk.js"
   ]
 }
